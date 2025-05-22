@@ -1,0 +1,131 @@
+
+ body {
+    font-family: Arial, sans-serif;
+    margin-block-start: 50;
+    padding: 0;
+    background-color:turquoise;
+
+    }
+    section title{
+            color: red;
+            }
+            container{
+                display: flex;
+                width: 100%;
+                margin: 0 auto;
+                padding: 20px;
+                justify-content: space-between;
+                column-count: 2;
+            }
+            Colonne de gauche
+            left column{
+                width: 300px;
+                background-color: #0073e6;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+           left column img{
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                margin-bottom: 10px;
+            }
+            left column contact p{
+                margin: 5px 0;
+            }
+
+           Colonne de droite
+            right column{
+                width: calc(100%-320px);/
+                *Prendre en compte le padding de la column gauche*/
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+            }
+            header{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                border-bottom: 2px solid white;
+                padding-bottom: 20px;
+                color: red;
+                font-size: 30px;
+            }
+            header section name p{
+                font-size: 45px;
+                font-weight: 100;
+            }
+            section title{
+                color: red;
+                font-size: 20px;
+                margin-bottom: 10px;
+                font-weight: bold;
+            }
+            section{
+                margin-bottom: 20px;
+            }
+            section ul{
+                list-style-type: none;
+                padding: 0;
+            }
+            section ul li{
+                margin-bottom: 10px;
+            }
+            experience, education{
+                display: flex;
+                justify-content: space-between;
+                color: red;
+            }
+            experience role, education degree{
+                font-weight: bold;
+                color: red;
+            }
+            footer{
+                text-align: center;
+                font-size: 12px;
+                color: #777;
+                margin-top: 20px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+                        <p>Ndogpassi 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header>
+           <div class="header">
+            <div class="Spécialiste en traitement">
+           <P><strong>Spécialiste en traitement de texte et tableur (Word et Exel)</strong></P>
+            </div>
+           </div>
+        </header>
+
+        <!--right Column-->
+        <div class="righ
